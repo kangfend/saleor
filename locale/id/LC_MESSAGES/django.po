@@ -8,6 +8,7 @@
 # Chetabahana <admin@chetabahana.com>, 2020
 # Kholis Respati Agum Gumelar <gumelaragum@protonmail.com>, 2020
 # Fazza Fakhri <new.fazzafakhri@gmail.com>, 2020
+# Sutrisno Efendi <kangfend@gmail.com>, 2020
 #
 #, fuzzy
 msgid ""
@@ -16,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-11 12:15+0000\n"
 "PO-Revision-Date: 2017-02-08 11:00+0000\n"
-"Last-Translator: Fazza Fakhri <new.fazzafakhri@gmail.com>, 2020\n"
+"Last-Translator: Sutrisno Efendi <kangfend@gmail.com>, 2020\n"
 "Language-Team: Indonesian (https://www.transifex.com/mirumee/teams/34782/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -145,6 +146,11 @@ msgid ""
 "\n"
 "Please note that this action is permanent and cannot be reversed.\n"
 msgstr ""
+"\n"
+"Anda menerima email ini karena Anda atau orang lain telah meminta penghapusan atas akun Anda di %(site_name)s.\n"
+"Klik tauta di bawah ini untuk menghapus akun Anda.\n"
+"\n"
+"Harap dicatat bahwa tindakan ini bersifat permanen dan tidak dapat dibatalkan.\n"
 
 #: templates/templated_email/account/confirm.email:4
 msgctxt "Account confirmation e-mail subject"
@@ -159,6 +165,9 @@ msgid ""
 "In order to log into %(site_name)s, you have to confirm your email address first.\n"
 "Please click the link below to do so and log into your account.\n"
 msgstr ""
+"\n"
+"Untuk masuk ke %(site_name)s, Anda harus mengkonfirmasi alamat email Anda terlebih dahulu.\n"
+"Silakan klik tautan di bawah ini untuk melakukannya dan masuk ke akun Anda.\n"
 
 #: templates/templated_email/account/email_changed_notification.email:4
 #: templates/templated_email/account/request_email_change.email:4
@@ -175,6 +184,10 @@ msgid ""
 "You're receiving this e-mail because you or someone else has changed email for your user account at %(site_name)s.\n"
 "If you didn't request this change, please contact the administrator.\n"
 msgstr ""
+"\n"
+"\n"
+"Anda menerima email ini karena Anda atau orang lain telah mengganti email akun pengguna Anda di %(site_name)s.\n"
+"Jika Anda tidak meminta perubahan ini, silakan hubungi administrator.\n"
 
 #: templates/templated_email/account/password_reset.email:4
 msgctxt "Password reset e-mail subject"
@@ -189,6 +202,9 @@ msgid ""
 "You're receiving this e-mail because you or someone else has requested a password for your user account at %(site_name)s.\n"
 "It can be safely ignored if you did not request a password reset. Click the link below to reset your password.\n"
 msgstr ""
+"\n"
+"Anda menerima email ini karena Anda atau orang lain telah meminta kata sandi untuk akun Anda di %(site_name)s.\n"
+"Ini dapat diabaikan dengan aman jika Anda tidak meminta pengaturan ulang kata sandi. Klik tautan di bawah ini untuk mengatur ulang kata sandi Anda.\n"
 
 #: templates/templated_email/account/request_email_change.email:9
 #, python-format
@@ -199,6 +215,10 @@ msgid ""
 "You're receiving this e-mail because you or someone else has requested an email change for your user account at %(site_name)s.\n"
 "It can be safely ignored if you did not request an email change. Click the link below to confirm new email address.\n"
 msgstr ""
+"\n"
+"\n"
+"Anda menerima email ini karena Anda atau orang lain telah meminta perubahan email untuk akun pengguna Anda di %(site_name)s.\n"
+"Ini dapat diabaikan dengan aman jika Anda tidak meminta perubahan email. Klik tautan di bawah ini untuk mengkonfirmasi alamat email baru.\n"
 
 #: templates/templated_email/csv/export_failed.email:4
 #: templates/templated_email/csv/export_products_file.email:4
@@ -225,7 +245,7 @@ msgstr "File Anda dengan data produk siap diunduh:%(csv_link)s"
 #, python-format
 msgctxt "Set password for customer e-mail title"
 msgid "Hello from %(site_name)s!"
-msgstr "Hello dari %(site_name)s!"
+msgstr "Halo dari %(site_name)s!"
 
 #: templates/templated_email/dashboard/customer/set_password.email:6
 #, python-format
@@ -235,12 +255,15 @@ msgid ""
 "You're receiving this e-mail because you have to set a password for your customer account at %(site_name)s.\n"
 "Click the link below to reset your password.\n"
 msgstr ""
+"\n"
+"Anda menerima email ini karena Anda harus menyetel kata sandi untuk akun pelanggan Anda di %(site_name)s.\n"
+"Klik tautan di bawah ini untuk mengatur ulang kata sandi Anda.\n"
 
 #: templates/templated_email/dashboard/staff/set_password.email:2
 #, python-format
 msgctxt "Set password for staff member e-mail title"
 msgid "Hello from %(site_name)s!"
-msgstr "Hello dari %(site_name)s!"
+msgstr "Halo dari %(site_name)s!"
 
 #: templates/templated_email/dashboard/staff/set_password.email:6
 #, python-format
@@ -250,6 +273,9 @@ msgid ""
 "You're receiving this e-mail because you have to set a password for your staff member account at %(site_name)s.\n"
 "Click the link below to reset your password.\n"
 msgstr ""
+"\n"
+"Anda menerima email ini karena Anda harus menyetel kata sandi untuk akun anggota staf Anda di %(site_name)s.\n"
+"Klik tautan di bawah ini untuk menyetel ulang sandi Anda.\n"
 
 #: templates/templated_email/order/confirm_fulfillment.email:4
 #, python-format
@@ -421,6 +447,9 @@ msgid ""
 "Thank you for your payment.\n"
 "Your payment was successfully processed.\n"
 msgstr ""
+"\n"
+"Terima kasih atas pembayaran Anda.\n"
+"Pembayaran Anda berhasil diproses.\n"
 
 #: templates/templated_email/order/send_invoice.email:4
 msgctxt "Invoice email subject"
@@ -513,6 +542,10 @@ msgid ""
 " delete your account. Please note that this action is permanent and cannot "
 "be reversed."
 msgstr ""
+"Anda menerima email ini karena Anda atau orang lain telah meminta "
+"penghapusan akun pengguna Anda di %(site_name)s.<br/> Klik tautan di bawah untuk"
+" menghapus akun Anda. Harap diperhatikan bahwa tindakan ini bersifat permanen dan tidak dapat "
+"dibatalkan."
 
 #: templates/templated_email/source/confirm.mjml:16
 #, python-format
@@ -521,6 +554,8 @@ msgid ""
 "In order to log into %(site_name)s, you have to confirm your email address "
 "first. Please click the link below to do so and log into your account."
 msgstr ""
+"Untuk login ke %(site_name)s, Anda harus mengkonfirmasi alamat email Anda "
+"terlebih dahulu. Silakan klik tautan di bawah untuk melakukannya dan masuk ke akun Anda."
 
 #: templates/templated_email/source/confirm_fulfillment.mjml:16
 msgctxt "Fulfillment confirmation email text"
@@ -569,7 +604,7 @@ msgstr ""
 #: templates/templated_email/source/confirm_payment.mjml:16
 msgctxt "Payment confirmation e-mail text"
 msgid "Thank you for your payment. Your payment was successfully processed."
-msgstr ""
+msgstr "Terima kasih atas pembayaran Anda. Pembayaran Anda berhasil diproses."
 
 #: templates/templated_email/source/email_changed_notification.mjml:16
 #, python-format
@@ -579,6 +614,9 @@ msgid ""
 "for your user account at %(site_name)s.<br /> If you didn't request this "
 "change, please contact the administrator."
 msgstr ""
+"Anda menerima email ini karena Anda atau orang lain telah mengubah email "
+"untuk akun pengguna Anda di %(site_name)s.<br /> Jika Anda tidak meminta "
+"perubahan ini, harap hubungi administrator."
 
 #: templates/templated_email/source/export_failed.mjml:16
 msgctxt "Export products e-mail text"
@@ -679,6 +717,10 @@ msgid ""
 "ignored if you did not request a password reset. Click the link below to "
 "reset your password."
 msgstr ""
+"Anda menerima email ini karena Anda atau orang lain telah meminta "
+"kata sandi untuk akun pengguna Anda di %(site_name)s.<br/> Ini bisa dengan aman "
+"diabaikan jika Anda tidak meminta pengaturan ulang kata sandi. Klik tautan di bawah untuk "
+"mengatur ulang kata sandi Anda."
 
 #: templates/templated_email/source/request_email_change.mjml:16
 #, python-format
@@ -689,6 +731,10 @@ msgid ""
 "ignored if you did not request an email change. Click the link below to "
 "confirm new email address."
 msgstr ""
+"Anda menerima email ini karena Anda atau orang lain telah meminta "
+"perubahan email untuk akun pengguna Anda di %(site_name)s.<br /> Ini bisa dengan aman "
+"diabaikan jika Anda tidak meminta perubahan email. Klik tautan di bawah untuk "
+"mengkonfirmasi alamat email baru."
 
 #: templates/templated_email/source/send_invoice.mjml:16
 #, python-format
@@ -704,6 +750,9 @@ msgid ""
 "customer account at %(site_name)s.<br/> Click the link below to set up your "
 "password."
 msgstr ""
+"Anda menerima email ini karena Anda harus menyetel kata sandi untuk "
+"akun pelanggan di %(site_name)s.<br/> Klik tautan di bawah ini untuk mengatur "
+"kata sandi Anda."
 
 #: templates/templated_email/source/set_password.mjml:16
 #, python-format
@@ -713,6 +762,9 @@ msgid ""
 " member account at %(site_name)s.<br/> Click the link below to set up your "
 "password."
 msgstr ""
+"Anda menerima email ini karena Anda harus mengatur kata sandi untuk anggota"
+" staf Anda di %(site_name)s.<br/> Klik tautan di bawah ini untuk mengatur "
+"kata sandi."
 
 #: templates/templated_email/source/staff_confirm_order.mjml:17
 #, python-format
